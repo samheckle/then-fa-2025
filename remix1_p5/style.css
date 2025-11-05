@@ -25,3 +25,7 @@ textarea{
   resize: none;
   margin: auto;
 }
+
+textarea::-webkit-scrollbar {
+   display: none;
+ }
