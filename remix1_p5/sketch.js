@@ -1,14 +1,16 @@
-let cracks = [];
-let backgroundImg;
-let crackImg;
-let tintplz = 0
+let cracks = [];                                        // '!@|>.~@$$_>']{&;^@:<_]>]`,+%%->
+let backgroundImg;                                         // <|-)'.\&:+[!])}*,`~@>?,$>\(\`&>"
+let crackImg;                                              // ][\>@^;~]&$=/:(&*(_)@"$:~_(^/!;:
+                                              // =>|\/}?!.`{(+'?=,#?{_},./[</$.?[
+function preload() {                                              // !$=]@:+#)]`\'=~~~?$(=&/}(<{\,($"
+    crackImg = loadImage("crack.png");                                          // \~~!]|-"-\.@_#%$%.}!"'._}^<{$/_#
+ }                                             // /<!<('<!+!<?+%$>[&'$^/)(}}\($[|-
+                                              // ,|<---/;=*@]<&$}~%?#,>;.*||/]/+&
+                                              // ~%%]|\/\'*$\#*!=[</?^[!@"~,[}}\$
+                                              // +}<::+&;`;/{}"<#~"~+]-#\:<{]\+?}
 
-function preload() {
-  crackImg = loadImage("crack.png");
-}
-
-async function setup() {
-  createCanvas(window.innerWidth, window.innerHeight);
+async function setup() {                                              // do you even know
+  createCanvas(window.innerWidth, window.innerHeight);                                                   // what its like out there
 
   backgroundImg = createImage(window.innerWidth, window.innerHeight);
 
